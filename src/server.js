@@ -5,6 +5,9 @@ import cors from "cors"
 //importar conexão do banco
 import conn from "./config/conn.js"
 
+//importar os modelos
+import Tarefa from "./models/tarefaModel.js"
+
 //importação das rotas
 import tarefaRouter from "./routes/tarefaRouter.js"
 
